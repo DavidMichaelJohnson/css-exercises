@@ -33,4 +33,10 @@ img {
 
 .container {
   display: flex;
+  justify-content: space-around;
+}
+
+.child {
+  width: 200px;
+  text-align: center;
 }
