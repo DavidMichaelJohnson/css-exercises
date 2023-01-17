@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 0 26px;
 }
 
 .title {
@@ -12,6 +13,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -27,10 +29,6 @@ img {
   background: #eee;
 }
 
-* {
-  border: 2px solid red;
-}
-
 .container {
   display: flex;
   justify-content: space-around;
@@ -39,4 +37,5 @@ img {
 .child {
   width: 200px;
   text-align: center;
+  margin: 0px 26px;
 }
