@@ -72,5 +72,8 @@ button.cancel {
 
 .top {
   display: flex;
-  justify-content: space-between;
+}
+
+.header {
+  text-align: left;
 }
