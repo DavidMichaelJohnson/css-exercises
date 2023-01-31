@@ -24,4 +24,33 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  
+}
+
+* {
+  border: 2px solid red;
+}
+
+li {
+  list-style: none;
+  
+}
+
+.header {
+  display: flex;
+  
+}
+
+.left-links {
+  display: flex;
+  
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer {
+  display: flex;
 }
