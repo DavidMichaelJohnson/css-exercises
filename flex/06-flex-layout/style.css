@@ -24,7 +24,6 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
-  
 }
 
 * {
@@ -54,4 +53,11 @@ li {
 .footer {
   display: flex;
   background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
