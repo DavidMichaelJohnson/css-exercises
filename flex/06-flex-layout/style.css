@@ -27,7 +27,7 @@ input {
 }
 
 * {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 li {
@@ -53,6 +53,9 @@ li {
 .footer {
   display: flex;
   background-color: #eeeeee;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .content {
@@ -60,4 +63,8 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+li a {
+  color: grey;
 }
